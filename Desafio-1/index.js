@@ -1,3 +1,4 @@
+// Desafio 1
 class Product {
     constructor(title, description, price, thumbnail, code, stock) {
 
