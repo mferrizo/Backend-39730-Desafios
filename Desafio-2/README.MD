@@ -1,4 +1,4 @@
-# Curso de Backend CoderHouse# 
+# Curso de Backend CoderHouse 
 
 ## Comisión 39730
 ## Desafio2 - Clases con ECMAScript y ECMAScript avanzado
