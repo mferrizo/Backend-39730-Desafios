@@ -4,7 +4,7 @@ class ProductManager {
     constructor(path) {
         this.path = path;
     }
-        // Verifica que el archivo exista, si no existe lo crea
+        // Verifica que el archivo exista, si no existe lo crea.
     checkFile = () => {
         !existsSync(this.path) && writeFileSync(this.path, "[]", "utf-8");
     };
