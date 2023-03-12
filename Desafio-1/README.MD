@@ -11,6 +11,8 @@
 ***thumbnail (ruta de imagen)***
 ***code (código identificador)***
 ***stock (número de piezas disponibles)***
+[Volver a Repositorio Principal de Desafios](https://github.com/mferrizo/Backend-39730-Desafios)
+
 
 
 
