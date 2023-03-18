@@ -1,0 +1,92 @@
+[
+   {
+      "title": "Teclado Genius KB-100",
+      "description": "Teclado Genius Smart KB-101 QWERTY inglés US color negro",
+      "price": 2900,
+      "thumbnail": "https://acortar.link/U0OvTj",
+      "code": 100,
+      "stock": 20,
+      "id": 1
+   },
+   {
+      "title": "Teclado Noganet NKB-78011",
+      "description": "Teclado Noganet NKB-78011 QWERTY español color negro",
+      "price": 1200,
+      "thumbnail": "https://acortar.link/nFFNA6",
+      "code": 101,
+      "stock": 20,
+      "id": 2
+   },
+   {
+      "title": "Teclado Genius Slimstar Q200",
+      "description": "Teclado Genius Slimstar Q200 Ultra Delgado Wired Multimedia",
+      "price": 3200,
+      "thumbnail": "https://acortar.link/so5qzC",
+      "code": 102,
+      "stock": 20,
+      "id": 3
+   },
+   {
+      "title": "Teclado gamer Noganet NKB-500 RGB",
+      "description": "Teclado gamer Noganet NKB-500 QWERTY español España color negro con luz RGB",
+      "price": 2500,
+      "thumbnail": "https://acortar.link/qPwQpu",
+      "code": 103,
+      "stock": 20,
+      "id": 4
+   },
+   {
+      "title": "Mouse Genius DX-110 USB",
+      "description": "Mouse Genius DX-110 USB blanco elegante",
+      "price": 1400,
+      "thumbnail": "https://acortar.link/QsHsb1",
+      "code": 104,
+      "stock": 50,
+      "id": 5
+   },
+   {
+      "title": "Mouse Logitech M90 negro",
+      "description": "Mouse Logitech M90 negro - 1000 DPI",
+      "price": 1500,
+      "thumbnail": "https://acortar.link/IX2uc0",
+      "code": 105,
+      "stock": 30,
+      "id": 6
+   },
+   {
+      "title": "ouse Gamer Logitech G300S",
+      "description": "Mouse Gamer Logitech G Series G300S negro",
+      "price": 4000,
+      "thumbnail": "https://acortar.link/HJLH6B",
+      "code": 106,
+      "stock": 18,
+      "id": 7
+   },
+   {
+      "title": "Mouse Genius DX-120",
+      "description": "Mouse Genius DX-120 calm black",
+      "price": 1700,
+      "thumbnail": "https://acortar.link/pVioDN",
+      "code": 107,
+      "stock": 30,
+      "id": 8
+   },
+   {
+      "title": "Kit de teclado y mouse inalámbrico Logitech MK540",
+      "description": "Kit de teclado y mouse inalámbrico Logitech MK540 Español de color negro",
+      "price": 18000,
+      "thumbnail": "https://acortar.link/zrL23X",
+      "code": 108,
+      "stock": 6,
+      "id": 9
+   },
+   {
+      "title": "Kit de teclado y mouse gamer Redragon S101-BA",
+      "description": "Kit de teclado y mouse gamer Redragon S101-BA Español de color negro",
+      "price": 15000,
+      "thumbnail": "https://acortar.link/f04qIX",
+      "code": 109,
+      "stock": 3,
+      "id": 10
+   }
+]

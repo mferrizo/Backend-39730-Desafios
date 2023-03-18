@@ -1,34 +1,50 @@
-import ProductManager from "./ProductManager.js";
-import express from "express";
+//Levantando Servidor
+const express = require('express');
+
+const ProductManager = require("./productManager");
+const productManager = new ProductManager("./items.json");
 
 const app = express();
-const PORT = 8080;
-const manager = new ProductManager("./src/database.json");
+app.listen(8080, () => {
+    console.log("Server running on port 8080");
+  });
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
-app.get("/", (req, res) => {
-    res.send("Desafío #3 - Servidor con express");
-});
-
-app.get("/products", async (req, res) => {
-    const products = await manager.getProducts();
-    let { limit } = req.query;
-    let data;
-    if (!limit) {
-        data = products;
-    } else {
-        data = products.slice(0, parseInt(limit));
+//Con Router
+class ProductsRouter {
+    async getProducts(req, res) {
+      try {
+        const products = await productManager.getProducts();
+        const { limit } = req.query;
+  
+        if (limit) {
+          const limitProducts = products.slice(0, parseInt(limit));
+          res.status(200).json(limitProducts);
+        } else {
+          res.status(200).json(products);
+        }
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
     }
-    res.send(data);
-});
+  
+    async getProductById(req, res) {
+      try {
+        const { id } = req.params;
+        const product = await productManager.getProductById(parseInt(id));
+  
+        if (!product)
+          res.status(404).json({ error: `El producto con el id ${id} no existe.` });
+        else res.json(product);
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    }
+  }
 
-app.get("/products/:pid", async (req, res) => {
-    const product = await manager.getProductById(parseInt(req.params.pid));
-    product === null ? res.send("No se encontró el producto") : res.send(product);
-});
 
-app.listen(PORT, () => {
-    console.log(`Server created on localhost:${PORT}`);
-});
+const productsRouter = new ProductsRouter();
+
+app.get("/", productsRouter.getProducts);
+app.get("/products", productsRouter.getProducts);
+app.get("/:id", productsRouter.getProductById);
+app.get("/products/:id", productsRouter.getProductById);
