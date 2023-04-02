@@ -1,0 +1,17 @@
+<h1>
+    Productos disponibles en tiempo real
+</h1>
+<div id="realTimeProducts">
+
+    {{#each products}}
+    <div id={{this.id}}>
+        <p>{{this.title}}</p>
+        <p>${{this.price}}</p>
+        <p>Cantidad Disponibles: {{this.stock}}</p>
+        <br>
+    </div>
+    {{/each}}
+</div>
+
+<script src="/socket.io/socket.io.js "></script>
+<script src="/js/realTimeProducts.js"></script>

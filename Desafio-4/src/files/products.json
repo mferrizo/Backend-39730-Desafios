@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "product1",
+        "description": "description product1",
+        "code": "a1",
+        "price": 40,
+        "status": true,
+        "stock": 10,
+        "category": "azar1",
+        "thumbnails": [
+            "./public/foto1",
+            "./publicvideo/video1"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "product2",
+        "description": "description product2",
+        "code": "a2",
+        "price": 40,
+        "status": true,
+        "stock": 10,
+        "category": "azar2",
+        "thumbnails": [
+            "./public/foto2",
+            "./publicvideo/video2"
+        ]
+    }
+]
