@@ -1,0 +1,23 @@
+[
+	{
+		"status": true,
+		"title": "M241",
+		"description": "PLC",
+		"price": "450",
+		"code": "SchneireM241",
+		"stock": "100",
+		"category": "aws",
+		"_id": 2,
+		"thumbnail": "https://cdn.bpsolucioneselectricas.com.ar/uploads/1591999559_UEYxMzAyMjBfNDAwMHg0MDAwLnBuZw==.jpg"
+	},
+	{
+		"title": "1100",
+		"description": "HMI",
+		"price": 1240,
+		"code": "Siemen8550",
+		"stock": 256,
+		"category": "entrar",
+		"status": false,
+		"_id": 3
+	}
+]

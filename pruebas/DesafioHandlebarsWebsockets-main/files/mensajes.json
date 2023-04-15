@@ -1,0 +1,22 @@
+[
+	{
+		"user": "Yami",
+		"message": "Hola",
+		"_id": 1
+	},
+	{
+		"user": "Diego",
+		"message": "Hola super",
+		"_id": 2
+	},
+	{
+		"user": "Juan",
+		"message": "Hola, como estan?",
+		"_id": 3
+	},
+	{
+		"user": "Alberto",
+		"message": "Hola loco",
+		"_id": 4
+	}
+]

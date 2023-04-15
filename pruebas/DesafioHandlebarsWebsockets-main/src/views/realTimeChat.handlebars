@@ -1,0 +1,27 @@
+<div>
+  <div>
+    <h1>Practica Integradora Modulo 1</h1>
+
+    <p>Agregar mensaje:</p>
+
+    <div>
+      <label for="user">Usuario: </label>
+      <input type="text" id="user" />
+    </div>
+    <div>
+      <label for="message">Mensaje: </label>
+      <input type="text" id="message" />
+    </div>
+
+    <button id="messageBox">Agregar mensaje</button>
+  </div>
+
+  <h2>Mensajes en tiempo real</h2>
+
+  <div id="realTimeChat">
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeChat.js"></script>

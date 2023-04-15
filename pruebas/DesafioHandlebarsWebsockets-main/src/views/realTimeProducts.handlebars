@@ -1,0 +1,55 @@
+<div>
+  <div>
+    <h1>Practica Integradora Modulo 1</h1>
+    <p>Borrar producto:</p>
+
+    <div>
+      <label for="pid">Id</label>
+      <input type="text" id="pid" />
+    </div>
+
+    <button id="deleteBox">Eliminar producto</button>
+
+    <p>Agregar producto:</p>
+
+    <div>
+      <label for="title">Title: </label>
+      <input type="text" id="title" />
+    </div>
+    <div>
+      <label for="description">Description: </label>
+      <input type="text" id="description" />
+    </div>
+    <div>
+      <label for="price">Price: </label>
+      <input type="number" id="price" />
+    </div>
+    <div>
+      <label for="code">Code: </label>
+      <input type="text" id="code" />
+    </div>
+    <div>
+      <label for="stock">Stock: </label>
+      <input type="number" id="stock" />
+    </div>
+    <div>
+      <label for="category">Category: </label>
+      <input type="text" id="category" />
+    </div>
+    <div>
+      <label for="status">Status: </label>
+      <input type="text" id="status" />
+    </div>
+
+    <button id="addBox">Agregar producto</button>
+  </div>
+
+  <h2>Productos en tiempo real</h2>
+
+  <div id="realTime">
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>

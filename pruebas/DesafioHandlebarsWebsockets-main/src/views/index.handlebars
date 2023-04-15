@@ -1,0 +1,18 @@
+<div>
+  <h1>Practica Integradora Modulo 1</h1>
+  <h2>Productos:</h2>
+  {{#each productsArray}}
+    <div>
+      <br />
+      <p>Id: {{this._id}}</p>
+      <p>Title: {{this.title}}</p>
+      <p>Description: {{this.description}}</p>
+      <p>Price: {{this.price}}</p>
+      <p>Code: {{this.code}}</p>
+      <p>Stock: {{this.stock}}</p>
+      <p>Category: {{this.category}}</p>
+      <p>Status: {{this.status}}</p>
+      <p>Thumbnail: {{this.thumbnail}}</p>
+    </div>
+  {{/each}}
+</div>
